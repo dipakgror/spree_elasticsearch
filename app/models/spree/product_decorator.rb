@@ -15,7 +15,7 @@ module Spree
       indexes :price, type: 'double'
       indexes :sku, type: 'string', index: 'not_analyzed'
       indexes :taxon_ids, type: 'string', index: 'not_analyzed'
-      indexes :properties, type: 'string', index: 'not_analyzed'
+    #  indexes :properties, type: 'string', index: 'not_analyzed'
     end
 
     def as_indexed_json(options={})
